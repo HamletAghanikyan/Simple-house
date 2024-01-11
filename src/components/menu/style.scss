@@ -1,0 +1,23 @@
+.box{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.box p{
+    font-size: 15px;
+    color: grey;
+}
+
+.box h4{
+    font-size: 20px;
+    color: rgb(101, 91, 138);
+}
+
+.box span{
+    color: rgb(77, 150, 125);
+    font-size: 20px;
+    font-weight: bolder;
+}

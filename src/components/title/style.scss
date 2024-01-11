@@ -1,0 +1,23 @@
+.descraption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.descraption h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.descraption p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+
+.desc{
+ margin: 0 auto;
+ max-width: 700px;   
+}
