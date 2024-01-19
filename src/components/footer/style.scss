@@ -26,10 +26,16 @@
     background-color: white;
     font-size: 20px;
     color: grey;
+    cursor: pointer;
 }
 
 .home-end{
     text-align: center;
     margin-top: 50px;
     font-size: 20px;
+}
+
+.footer-inside{
+    display: flex;
+    justify-content: end;
 }

@@ -1,0 +1,40 @@
+.memberbox{
+display: flex;
+max-width: 500px;
+gap: 20px;
+}
+
+.memberinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.memberinfo h2{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #09C;
+}
+
+.memberinfo h3{
+    color: #C39;
+    font-weight: 300;
+}
+
+.memberinfo p{
+    color: #626364;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.socialmedias a{
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #626364;
+    text-decoration: none;
+}
+
+.socialmedias a:hover{
+    background-color:#626364 ;
+    color: white;
+}

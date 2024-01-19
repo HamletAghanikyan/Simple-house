@@ -2,8 +2,8 @@ import React from "react";
 import './style.scss'
 
 
-
 class Buttons extends React.Component{
+    
     render(){
         return <div className="buttons">
             <button className="button">Pizza</button>

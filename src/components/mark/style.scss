@@ -1,0 +1,33 @@
+.markbox{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+
+.markbox img{
+    width: 100px;
+    height: 100px;
+}
+
+.markbox p{
+    color: #626364;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.markbox button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px green solid;
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+
+.markbox button:hover{
+    background-color: rgb(1, 109, 1);
+}

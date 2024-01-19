@@ -40,3 +40,27 @@
     font-size: 20px;
     color: white;
 }
+
+.background{
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position: bottom;
+    min-height: 500px;
+    background-size: 80%;
+}
+
+.menu-title{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-title:hover{
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+}
+
+.menu-title.active{
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+}

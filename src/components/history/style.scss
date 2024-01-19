@@ -1,0 +1,26 @@
+.history{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.history-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.history-text h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #1A6692;
+}
+
+
+.history-text p{
+    color: #626364;
+    line-height: 1.8;
+    font-size: 20px;
+}

@@ -9,12 +9,7 @@ import backgrundfoto from '../../assets/images/simple-house-01.jpg'
 class Header extends React.Component {
 
     render() {
-        return <div className="container" style={{ backgroundImage: `url(${backgrundfoto})`,
-                            backgroundSize:"cover",
-                            backgroundRepeat:"no-repeat",
-                            // backgroundAttachment:"fixed",
-                            backgroundPosition:"center",
-                            minHeight:"500px",}}>,
+        return <div className="container background" style={{ backgroundImage: `url(${backgrundfoto})`,}}>,
                         
             <div className="headerbox">
                 <div className="title">
@@ -23,9 +18,9 @@ class Header extends React.Component {
                     <p>new restaurant template</p></span>
                 </div>
                 <ul>
-                    <li><NavLink to={RoutersList.HOME}>Home</NavLink></li>
-                    <li><NavLink to={RoutersList.ABOUT}>About</NavLink></li>
-                    <li><NavLink to={RoutersList.CONTACT}>Contact</NavLink></li>
+                    <li><NavLink className="menu-title" to={RoutersList.HOME}>Home</NavLink></li>
+                    <li><NavLink className="menu-title" to={RoutersList.ABOUT}>About</NavLink></li>
+                    <li><NavLink className="menu-title" to={RoutersList.CONTACT}>Contact</NavLink></li>
                 </ul>
             </div>
         </div>

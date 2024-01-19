@@ -1,19 +1,18 @@
 import React from "react";
 import './style.scss'
 
-class Menu extends React.Component {
 
+
+class Mark extends React.Component {
     render() {
-
         return <div className="container">
-            <div className="box">
+            <div className="markbox">
                 <img src={this.props.item.image} alt="" />
-                <h4>{this.props.item.title}</h4>
                 <p>{this.props.item.description}</p>
-                <span>{this.props.item.price}</span>
+                <button>Read More</button>
+                </div>
             </div>
-        </div>
     }
 }
 
-export default Menu 
+export default Mark

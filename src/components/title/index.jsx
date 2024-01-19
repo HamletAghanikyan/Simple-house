@@ -8,7 +8,6 @@ class Title extends React.Component {
             <div className="descraption">
                 <h2>{this.props.title}</h2>
                 <p>{this.props.description}</p>
-
             </div>
         </div>
     }
