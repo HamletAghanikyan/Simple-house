@@ -1,10 +1,11 @@
-.input{
+.input {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    
 }
 
-.input button{
+.input button {
     width: 150px;
     height: 50px;
     border: 1px green solid;
@@ -13,57 +14,72 @@
     color: white;
     cursor: pointer;
     transition: 0.3s;
-} 
+}
 
 input::placeholder {
     font: 1.25rem/3 sans-serif;
 }
 
-.input textarea::placeholder{
+.input textarea::placeholder {
     font: 1.25rem/3 sans-serif;
 }
 
-.input-button{
+.input-button {
     display: flex;
     justify-content: flex-end;
 }
 
-.input input{
+.input input {
     border: none;
     border-bottom: 1px grey solid;
     width: 400px;
     height: 50px;
 }
 
-.input textarea{
+.input textarea {
     border: none;
     border-bottom: 1px grey solid;
 }
 
-.input-head{
+.input-head {
     display: flex;
     align-items: flex-start;
-    justify-content:center;
+    justify-content: space-between;
     gap: 150px;
     margin-top: 50px;
-    padding: 0 50px;
+    padding: 0 150px;
 }
 
-.input-foot{
+.input-foot {
     display: flex;
     flex-direction: column;
     gap: 50px;
     max-width: 400px;
 }
 
-.input-foot h3{
+.input-foot h3 {
     font-size: 1.6rem;
     font-weight: 300;
     color: #319966;
 }
 
-.input-foot p{
+.input-foot p {
     color: #626364;
     line-height: 1.8;
     font-size: 20px;
+}
+
+.map{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: none;
+    padding: 0 150px;
+}
+
+.contact-icon{
+    color: green;
+    cursor: pointer;
 }

@@ -15,7 +15,6 @@ class History extends React.Component {
                     <p>Phasellus dui velit, feugiat sed elit ut, facilisis aliquam metus. Ut id bibendum erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum porttitor imperdiet. Integer facilisis.</p>
                 </div>
             </div>
-            <p className="home-end">Copyright © 2045 Simple House | Design: TemplateMo</p>
         </div>
     }
 }

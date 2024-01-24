@@ -1,0 +1,33 @@
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.question button{
+text-align: start;
+width: 700px;
+height: 50px;
+padding:0 20px;
+background-color: white;
+color: rgb(178, 178, 178);
+border: 1px rgb(178, 178, 178) solid;
+font-size: 20px;
+cursor: pointer;
+transition: 0.3s;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+.question button:hover{
+    color: darkblue;
+}
+
+.question p{
+    font-size: 20px;
+    width: 700px;
+    color: grey;
+}

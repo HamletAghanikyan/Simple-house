@@ -18,6 +18,7 @@ import pizza13 from "../../assets/images/13.jpg"
 import pizza14 from "../../assets/images/14.jpg"
 import Buttons from '../../components/buttons'
 import Footer from '../../components/footer'
+import Description from '../../components/description'
 
 
 
@@ -196,7 +197,8 @@ class Home extends React.Component {
                     return <Menu item={item} /> 
                 })}
             </div>
-            <Footer />
+            <Description/>
+            <Footer/>
         </div>
     }
 }

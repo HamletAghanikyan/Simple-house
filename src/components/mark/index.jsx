@@ -10,8 +10,8 @@ class Mark extends React.Component {
                 <img src={this.props.item.image} alt="" />
                 <p>{this.props.item.description}</p>
                 <button>Read More</button>
-                </div>
             </div>
+        </div>
     }
 }
 

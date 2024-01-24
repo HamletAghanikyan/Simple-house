@@ -3,6 +3,7 @@ import './style.scss'
 import Title from '../../components/title'
 import Options from '../../components/options'
 import History from '../../components/history'
+import Footer from '../../components/footer'
 import Members from '../../components/members'
 import member1 from "../../assets/images/about-01.jpg"
 import member2 from "../../assets/images/about-02.jpg"
@@ -59,6 +60,7 @@ class About extends React.Component{
             </div>
             <Options/>
             <History/>
+            <Footer/>
         </div>
         }
 }

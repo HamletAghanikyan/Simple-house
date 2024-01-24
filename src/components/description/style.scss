@@ -1,0 +1,45 @@
+.footer{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.footer h3{
+    font-size: 20px;
+    color: rgb(101, 91, 138);
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.footer a{
+    width: 120px;
+    height: 50px;
+    border: 1px grey solid;
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-inside{
+    display: flex;
+    justify-content: end;
+}
+
+.footer a:hover{
+background-color: grey;
+color: white;
+}
